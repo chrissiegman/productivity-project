@@ -30,11 +30,11 @@ textarea {
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1;
+  font-family: 'Corben', Georgia, Times, serif;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
@@ -47,6 +47,7 @@ h2 {
   text-align: center;
   font-weight: normal;
   color: $gray-light;
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -68,6 +69,7 @@ p {
   &:hover {
   color: white;
   text-decoration: none;
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
   }
 }
 /* footer */
@@ -96,12 +98,7 @@ footer {
   }
 }
 
-/* jumbotron customization */
-/*
-.other-color {
-  background: black;
-  h1 {
-    color: white;
-  }
+/* experimenting */
+.navbar {
+    border-radius: 0;
 }
-*/
